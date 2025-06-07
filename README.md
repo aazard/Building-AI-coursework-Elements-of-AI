@@ -6,7 +6,7 @@ This project uses a simple feedforward neural network to predict house prices fr
 
 ![image of an online cat](https://tinyurl.com/elementsofaicat)
 
-Background
+## Background
 Real estate pricing can be inconsistent and difficult to assess due to the many variables involved. Manually estimating fair prices often leads to bias or missed value.
 
 This project aims to address:
