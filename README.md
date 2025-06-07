@@ -17,3 +17,5 @@ How could your project grow and become something even more?
 
 ## Acknowledgments: 
 If you’re using open source code or documents in your project, make sure you give credit to the creators. Mention your sources of inspiration, too.
+![image of an online cat](https://tinyurl.com/elementsofaicat)
+
