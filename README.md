@@ -1,102 +1,20 @@
-# House Price Predictor
-Final project for the Building AI course project by Reaktor and University of Helsinki
+# TITLE OF PROJECT 
 
-## Summary
-This project uses a simple feedforward neural network to predict house prices from structured input features like square footage, number of rooms, and location data. It demonstrates how AI can model real-world patterns in housing markets. Building AI course project
+## Background: 
+What is the problem your idea will solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
 
+## Data and AI techniques: 
+What data sources does your project depend on? Almost all AI solutions depend on some data. The availability and quality of the data are essential. Which AI techniques do you think will be helpful? Depending on whether you've been doing the programming exercises or not, you may choose to include a concrete demo implemented by coding, using some actual data!
+
+## How is it used: 
+What is the context in which your solution is used, and by whom? Who are the people affected by it? It’s important to appreciate the viewpoints of all those affected.
+
+## Challenges: 
+What does your project not solve? It’s important to understand that any technological solution will have its limitations.
+
+## What next: 
+How could your project grow and become something even more?
+
+## Acknowledgments: 
+If you’re using open source code or documents in your project, make sure you give credit to the creators. Mention your sources of inspiration, too.
 ![image of an online cat](https://tinyurl.com/elementsofaicat)
-
-## Background
-Real estate pricing can be inconsistent and difficult to assess due to the many variables involved. Manually estimating fair prices often leads to bias or missed value.
-
-This project aims to address:
-
-Inconsistent housing market pricing
-
-Biases in manual valuation
-
-Difficulty in forecasting home prices
-
-I chose this topic because I’m passionate about using AI for practical, high-impact applications. Property decisions are major life choices—accurate predictions help make them fairer.
-
-How is it used?
-The model takes numeric input features such as:
-
-Square meters
-
-Bedrooms
-
-Bathrooms
-
-Age of property
-
-Lot size
-
-It outputs a predicted market price.
-
-Users include:
-
-Buyers estimating a home’s worth before making offers
-
-Real estate professionals automating their valuation process
-
-Data analysts researching market trends
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/House_diagram.jpg" width="300">
-Data sources and AI methods
-Data was synthetically generated to simulate real-world home features and pricing patterns.
-
-AI methods:
-
-Fully connected neural network with 2 hidden layers
-
-ReLU activation functions
-
-Linear output layer for regression
-
-Example forward pass:
-
-ini
-Copy
-Edit
-h1 = np.maximum(0, np.dot(x, w0) + b0)
-h2 = np.maximum(0, np.dot(h1, w1) + b1)
-out = np.dot(h2, w2) + b2
-Challenges
-This model does not:
-
-Use real-world datasets (yet)
-
-Account for market seasonality, school zones, or economic factors
-
-Guarantee generalization to other geographic regions
-
-Ethical considerations:
-
-Must avoid reinforcing socioeconomic bias
-
-Should explain predictions clearly to users
-
-What next?
-Future improvements:
-
-Use real housing datasets (e.g., Zillow)
-
-Improve architecture with dropout or regularization
-
-Deploy with a web interface
-
-Add interpretability tools like SHAP or LIME
-
-I’d benefit from:
-
-Collaboration with data engineers for pipeline building
-
-Access to large, anonymized housing datasets
-
-Acknowledgments
-Inspired by the Building AI course by Reaktor and the University of Helsinki
-
-Image: House Diagram / CC BY-SA 3.0
-
-Thanks to NumPy and Python for enabling fast prototyping
