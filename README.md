@@ -1,8 +1,10 @@
 House Price Predictor
 Final project for the Building AI course project by Reaktor and University of Helsinki
 
-Summary
+## Summary
 This project uses a simple feedforward neural network to predict house prices from structured input features like square footage, number of rooms, and location data. It demonstrates how AI can model real-world patterns in housing markets. Building AI course project
+
+![image of an online cat](https://tinyurl.com/elementsofaicat)
 
 Background
 Real estate pricing can be inconsistent and difficult to assess due to the many variables involved. Manually estimating fair prices often leads to bias or missed value.
