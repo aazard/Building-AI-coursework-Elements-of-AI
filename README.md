@@ -1,4 +1,4 @@
-House Price Predictor
+# House Price Predictor
 Final project for the Building AI course project by Reaktor and University of Helsinki
 
 ## Summary
